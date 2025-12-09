@@ -40,3 +40,50 @@ For each store:
 - Creates a folder under `Backup Arquivos Lojas/`
 - Generates an Excel file named:
 
+
+### **4. KPI Calculation**
+KPIs calculated daily and yearly:
+
+- **Revenue**
+- **Product diversity**
+- **Average ticket size**
+
+KPI goals are compared against each store result, generating green/red indicators.
+
+### **5. Automated Email Notifications**
+Using **Outlook + win32com**, the system sends:
+
+#### ✔ Email to each manager with:
+- OnePage HTML report  
+- KPI indicators  
+- Attached Excel file with the daily data  
+
+#### ✔ Email to the board with:
+- Best and worst stores of the day  
+- Best and worst stores of the year  
+- Ranking spreadsheets attached  
+
+### **6. Fully Automated Workflow**
+Running the script once completes the entire process without manual intervention.
+
+---
+
+## 📂 Project Structure
+
+mall-automation-analytics/
+│
+├── Bases de Dados/
+│ ├── Emails.xlsx
+│ ├── Lojas.csv
+│ └── Vendas.xlsx
+│
+├── Backup Arquivos Lojas/
+│ ├── Store A/
+│ │ └── {date}_StoreA.xlsx
+│ └── Store B/
+│ └── {date}_StoreB.xlsx
+│
+├── Automacao de Processo/
+│ └── main.py (script principal)
+│
+└── README.md
