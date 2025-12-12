@@ -234,7 +234,7 @@ Windows users can also double-click `main.py`.
 💼 Python Developer — Back-end | Data Analytics | Full Stack  
 🔍 Focused on building automated solutions, data pipelines, and robust applications using Python.  
 📊 Interested in Data Analytics, SQL, ETL processes, APIs, Web Automation, and full-stack development with Python.  
-🔗 More projects: https://github.com/yagofelix00  
+🔗 Portfólio & GitHub: https://github.com/yagofelix00  
 
 ---
 
